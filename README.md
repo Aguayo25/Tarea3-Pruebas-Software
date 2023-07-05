@@ -5,17 +5,29 @@ Javier Aguayo - Daniel Roco
 
 #### Requisitos:
 * ##### Tener instalado java
+* ##### Utilizar EclipseIDE
 
 ### Instalación:
 #### 1. Clonar repositorio:
-    $ git clone https://github.com/Aguayo25/Tarea3-Pruebas-Software.git
+    $ git clone https://github.com/Aguayo25/Tarea3-Pruebas-Software.git o descargar el .zip
     $ cd Tarea3-Pruebas-Software
 
-#### 2. Compilar scripts de java:
-    $ javac .\VideoGameStoreSimulator.java
-
-#### 3. Ejecutar programa:
-    $ java .\VideoGameStoreSimulator.java
+#### 3. Ejecutar programa (con eclipse):
+* ##### Importar archivo:
+    * Ir a File
+    * Import
+    * General
+    * Existing Proyects into Workspace
+    * Select archive file -> Browse (a la derecha del select) (Se elige el archivo .zip descargado)
+* ##### Ejecutar arcihvo general:
+    * Click derecho sobre carpeta principal, "run as"
+* ##### Ejecutar pruebas unitarias:
+    * Abrir carpeta raiz
+    * Abrir carpeta src
+    * Abrir carpeta test
+    * Abrir carpeta java
+    * Abrir carpeta proyectoUnit
+    * Abrir cada archivo de test con doble click, ir a la ventana derecha donde está el código de la prueba y apretar "ctrl" + "R"
 
 #### 4. Consideraciones:
 * ##### El cliente no necesita credenciales para interacturar con su menú, pero el administrador sí debe ingresar sus credenciales para poder interacturar con su menú, estas son:
@@ -36,3 +48,5 @@ Javier Aguayo - Daniel Roco
     * Cuando el administrador vende juegos, el inventario del juego vendido decrementa.
 
 * ##### Según lo analizado entre los participantes de esta tarea, se cumplen todas las funcionalidades principales que se mencionan en el enunciado de la tarea, tanto para el usuario cliente como para el usuario administrador de tienda.
+
+* ##### Nos faltó completar mas cobertura en el archivo main, ya que faltó testear las distintas opcionesc que tiene el menú, puesto que solo se ocuparon algunas (catálogo), pero en total tenemos un 86% aproximado de cobertura del proyecto, lo cual se puede mejorar posteriormente haciendo pruebas para cada uno de los accesos del menú, tanto para el cliente como para el administrador.
