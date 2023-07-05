@@ -1,5 +1,7 @@
 # Tarea 3 de pruebas de software
 
+#### Integrantes:  
+Javier Aguayo - Daniel Roco
 
 #### Requisitos:
 * ##### Tener instalado java
